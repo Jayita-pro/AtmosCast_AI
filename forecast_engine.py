@@ -73,7 +73,7 @@ def get_tomorrow_forecast(city_name, api_key):
 
             return {
                 "city": data["name"],
-                "model_status": "AeroWave AI Active 🟢",
+                "model_status": "AtmosCast AI Active 🟢",
                 "current_temp": round(current_temp, 1),
                 "predicted_temp": round(predicted_temp, 1),
                 "predicted_humidity": round(predicted_humidity, 1),
