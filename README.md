@@ -171,15 +171,15 @@ From live weather stats to the audio player controls and the forecast comparison
 
 ```mermaid
 flowchart TD
-    A[User visits AtmosCast AI] --> B[Enters city name in search bar]
-    B --> C{Valid city?}
-    C -- No --> D[Show error / prompt retry]
-    C -- Yes --> E[Fetch live weather from OpenWeather API]
-    E --> F[Display temperature, humidity, wind, etc.]
-    F --> G[Forecast Engine generates tomorrow's prediction]
-    G --> H[Audio Engine detects weather condition]
-    H --> I[Matching ambient sound auto-plays]
-    I --> J[User explores Live / Forecast / About pages]
+    A["User visits<br/>AtmosCast AI"] --> B["Enters city<br/>name"]
+    B --> C{"Valid<br/>city?"}
+    C -- No --> D["Show error<br/>prompt retry"]
+    C -- Yes --> E["Fetch weather<br/>from API"]
+    E --> F["Display temp,<br/>humidity, wind"]
+    F --> G["Generate tomorrow's<br/>forecast"]
+    G --> H["Detect weather<br/>condition"]
+    H --> I["Auto-play<br/>ambient sound"]
+    I --> J["Explore Live /<br/>Forecast / About"]
 ```
 
 ### Application Workflow
@@ -187,21 +187,20 @@ flowchart TD
 ```mermaid
 sequenceDiagram
     participant U as User
-    participant F as Flask App (app.py)
-    participant W as OpenWeather API
+    participant F as Flask App
+    participant W as OpenWeather
     participant P as Forecast Engine
     participant A as Audio Engine
 
     U->>F: Search city
-    F->>W: Request current + forecast weather
-    W-->>F: Weather JSON response
+    F->>W: Request weather + forecast
+    W-->>F: Weather JSON
     F->>P: Pass forecast data
     P-->>F: Tomorrow's prediction
     F->>A: Pass current condition
-    A-->>F: Selected ambient audio file
-    F-->>U: Render page with weather data + audio player
+    A-->>F: Selected audio file
+    F-->>U: Render weather + audio player
 ```
-
 ### Module Architecture
 
 ```mermaid
