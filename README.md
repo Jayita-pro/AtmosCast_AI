@@ -17,7 +17,6 @@ An AI-powered weather web app that doesn't just show you the weather — it lets
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![OpenWeather API](https://img.shields.io/badge/OpenWeather-API-EB6E4B?style=for-the-badge&logo=openweathermap&logoColor=white)](https://openweathermap.org/api)
 [![Render](https://img.shields.io/badge/Deployed_on-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#-license)
 
 [🌐 Live Demo](https://atmoscast-ai-30dq.onrender.com/) · [📦 Source Code](https://github.com/Jayita-pro/AtmosCast_AI) · [🐞 Report Bug](https://github.com/Jayita-pro/AtmosCast_AI/issues) · [✨ Request Feature](https://github.com/Jayita-pro/AtmosCast_AI/issues)
 
@@ -46,10 +45,9 @@ An AI-powered weather web app that doesn't just show you the weather — it lets
 17. [Challenges Faced](#-challenges-faced)
 18. [Learning Outcomes](#-learning-outcomes)
 19. [Contributing](#-contributing)
-20. [License](#-license)
-21. [Author](#-author)
-22. [Acknowledgements](#-acknowledgements)
-23. [Contact](#-contact)
+20. [Author](#-author)
+21. [Acknowledgements](#-acknowledgements)
+22. [Contact](#-contact)
 
 ---
 
@@ -453,12 +451,6 @@ Contributions, issues, and feature requests are welcome!
 3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
 4. Push to the branch: `git push origin feature/AmazingFeature`
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
