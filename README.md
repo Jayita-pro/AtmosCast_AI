@@ -464,7 +464,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👤 Author
 
-**AtmosCast AI** is designed, developed, and maintained solo by:
+**AtmosCast AI** is designed, developed, and maintained by:
 
 **Jayita**
 🔗 GitHub: [@Jayita-pro](https://github.com/Jayita-pro)
