@@ -165,8 +165,6 @@ From live weather stats to the audio player controls and the forecast comparison
 ## 🎬 Demo
 
 - 🌐 **Live Demo:** [https://atmoscast-ai-30dq.onrender.com/](https://atmoscast-ai-30dq.onrender.com/)
-- 🎥 **Video Demo:** `[ Video Demo Placeholder — add YouTube/Loom link ]`
-- 🖼️ **GIF Preview:** `[ GIF Preview Placeholder — add ./assets/demo.gif ]`
 
 ---
 
@@ -282,66 +280,6 @@ AtmosCast_AI/
 
 ---
 
-## ⚙️ Installation
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/Jayita-pro/AtmosCast_AI.git
-cd AtmosCast_AI
-```
-
-### 2️⃣ Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
-```
-
-### 3️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Configure environment variables
-Create a `.env` file in the project root (see [Environment Variables](#-environment-variables) below).
-
-### 5️⃣ Run the Flask application
-```bash
-flask run
-```
-or
-```bash
-python app.py
-```
-
-The app will be running at `http://127.0.0.1:5000`.
-
-> 💡 **Tip:** Make sure your OpenWeather API key is active — new keys can take a few minutes to activate after creation.
-
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file in the root directory with the following:
-
-```env
-# OpenWeather API key (required)
-OPENWEATHER_API_KEY=your_openweathermap_api_key_here
-
-# Flask configuration
-FLASK_APP=app.py
-FLASK_ENV=development
-SECRET_KEY=your_secret_key_here
-```
-
-| Variable | Description | Required |
-|---|---|---|
-| `OPENWEATHER_API_KEY` | API key used to fetch live & forecast weather data | ✅ |
-| `SECRET_KEY` | Flask secret key for session security | ✅ |
-| `FLASK_ENV` | `development` or `production` | ⚪ Optional |
-
-> ⚠️ **Warning:** Never commit your `.env` file. It should always be listed in `.gitignore`.
-
----
 
 ## 📖 Usage Guide
 
