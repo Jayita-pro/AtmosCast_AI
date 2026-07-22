@@ -8,7 +8,6 @@ An AI-powered weather web app that doesn't just show you the weather — it lets
 
 <!-- Banner Placeholder -->
 <!-- ![AtmosCast AI Banner](./assets/banner.png) -->
-<img src="./assets/banner.png" alt="AtmosCast AI Banner" width="100%">
 ![AtmosCast AI Banner](./assets/banner.png)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-Backend-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
