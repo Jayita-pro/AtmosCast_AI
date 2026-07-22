@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}About | AeroWave AI{% endblock %}
+
+{% block content %}
+<div class="dashboard-wrapper about-wrapper">
+    <div class="dashboard-grid">
+
+        <div class="card about-section animated-card">
+            <h1 class="about-title">About AeroWave AI</h1>
+            <p class="about-intro">
+                AeroWave AI is a Data-Driven Weather Predictor and Ambient Sound Synthesizer. It bridges the gap between
+                machine learning and generative audio engineering by transforming real-time climate metrics into an
+                immersive, mathematically synthesized acoustic experience.
+            </p>
+        </div>
+
+        <div class="card about-section animated-card">
+            <div class="about-content">
+                <h3>System Pipeline & Utility</h3>
+                <ul>
+                    <li><strong>Live Data Ingestion:</strong> The Flask backend connects with global meteorological APIs
+                        to fetch real-time climate parameters instantly.</li>
+                    <li><strong>Predictive Intelligence:</strong> A custom Scikit-Learn Regression model processes this
+                        data to forecast future weather trends accurately.</li>
+                    <li><strong>Procedural Audio:</strong> NumPy and SciPy engines translate these predictions into wave
+                        equations, generating loopless ambient sounds.</li>
+                    <li><strong>Automation & Zero-Storage:</strong> Fully automated web pipeline generating audio purely
+                        via mathematical synthesis without heavy audio files.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card about-section animated-card">
+            <div class="about-content">
+                <h3>Project Team (Group ALPHA)</h3>
+                <p>Developed as a 3rd Semester project at SIET, Nilokheri (Guided by Ms. Diksha).</p>
+
+                <div class="team-grid">
+                    <div class="team-member">
+                        <span class="team-role">Backend & API</span>
+                        <span class="team-name">Kumar Saurabh</span>
+                    </div>
+                    <div class="team-member">
+                        <span class="team-role">Machine Learning</span>
+                        <span class="team-name">Jayita</span>
+                    </div>
+                    <div class="team-member">
+                        <span class="team-role">Audio Synthesis</span>
+                        <span class="team-name">Khushbu</span>
+                    </div>
+                    <div class="team-member">
+                        <span class="team-role">Frontend UI</span>
+                        <span class="team-name">Simran</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
