@@ -2,7 +2,7 @@
 
 AtmosCast AI is a live weather dashboard that pairs real-time weather data with an immersive **procedural audio layer** — ambient soundscapes (like crickets, rain, or wind) that match the current conditions and time of day for any city you search.
 
-Live demo: [atmoscast-ai.onrender.com](https://atmoscast-ai.onrender.com)
+Live demo: [atmoscast-ai-30dq.onrender.com](https://atmoscast-ai-30dq.onrender.com/)
 
 ---
 
