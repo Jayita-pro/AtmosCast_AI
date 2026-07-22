@@ -155,10 +155,10 @@ From live weather stats to the audio player controls and the forecast comparison
 | View | Preview |
 |---|---|
 | 🏠 Home Page | `[ Screenshot Placeholder: home-page.png ]` |
-| 🌤️ Weather Results | `[ Screenshot Placeholder: weather-results.png ]` |
-| 🎧 Audio Player | `[ Screenshot Placeholder: audio-player.png ]` |
-| 📅 Tomorrow Forecast | `[ Screenshot Placeholder: forecast-view.png ]` |
-| 📱 Mobile View | `[ Screenshot Placeholder: mobile-view.png ]` |
+| 🌤️ Weather Results | ![Weather Results](./assets/weather-results.jpeg) |
+| 🎧 Audio Player | ![Audio Player](./assets/audio-player.jpeg) |
+| 📅 Tomorrow Forecast | ![Forecast View](./assets/forecast-view.jpeg) |
+| 📱 Mobile View | ![Mobile View](./assets/mobile-view.jpeg) |
 
 ---
 
