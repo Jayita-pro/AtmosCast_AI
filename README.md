@@ -154,7 +154,7 @@ From live weather stats to the audio player controls and the forecast comparison
 
 | View | Preview |
 |---|---|
-| 🏠 Home Page | `[ Screenshot Placeholder: home-page.png ]` |
+| 🏠 Home Page | ![Home Page](./assets/home-page.jpeg) |
 | 🌤️ Weather Results | ![Weather Results](./assets/weather-results.jpeg) |
 | 🎧 Audio Player | ![Audio Player](./assets/audio-player.jpeg) |
 | 📅 Tomorrow Forecast | ![Forecast View](./assets/forecast-view.jpeg) |
